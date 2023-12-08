@@ -1,0 +1,10 @@
+[Unit]
+Description=Skr10 Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/roman/dz/skr10.sh
+
+[Install]
+WantedBy=default.target
